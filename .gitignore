@@ -1,0 +1,11 @@
+# Ignorar entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Ignorar archivos temporales
+.DS_Store
+*.log
+
+# Ignorar archivos generados
+productos_filtrados.csv
