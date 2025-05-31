@@ -1,11 +1,8 @@
-# Ignorar entorno virtual
 venv/
 __pycache__/
 *.pyc
-
-# Ignorar archivos temporales
+*.pyo
+*.pyd
+.env
 .DS_Store
-*.log
-
-# Ignorar archivos generados
-productos_filtrados.csv
+*.sqlite3
