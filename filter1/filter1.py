@@ -1,9 +1,6 @@
 import pandas as pd
 import sys
 
-
-
-
 def load_data(path: str) -> pd.DataFrame:
     if path.endswith('.xls') or path.endswith('.xlsx'):
         return pd.read_excel(path, header=1)
@@ -15,7 +12,6 @@ def load_data(path: str) -> pd.DataFrame:
 def filter(data: pd.DataFrame) -> pd.DataFrame:
     filtro = data[data["Categoría"].str.startswith("Componentes Y Partes", na=False)]
     return filtro
-
 
 def main():
     if len(sys.argv) < 2:
@@ -33,6 +29,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-    

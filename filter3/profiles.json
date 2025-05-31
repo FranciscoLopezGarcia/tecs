@@ -1,0 +1,36 @@
+{
+  "proveedor1": {
+    "tipo_filtro": "startswith",
+    "columna": "Categoría",
+    "prefijo": "Componentes Y Partes",
+    "keywords": [],
+    "exclude_keywords": []
+  },
+  "proveedor2": {
+    "tipo_filtro": "keywords_exclude",
+    "columna": "Descripcion",
+    "keywords": [
+      "cpu", "procesador", "ryzen", "intel", "i3", "i5", "i7", "i9", "xeon", "athlon", "pentium", "celeron", "apu",
+      "mother", "placa madre", "motherboard", "mainboard", "mobo",
+      "ram", "memoria ddr", "memoria ram", "ddr3", "ddr4", "ddr5", "sodimm",
+      "ssd", "hdd", "disco rigido", "disco duro", "m.2", "nvme", "sata",
+      "placa de video", "gpu", "geforce", "radeon", "gtx", "rtx", "vga",
+      "fuente atx", "fuente 500w", "fuente 600w", "fuente 650w", "psu", "power supply", "80 plus", "cooler master", "thermaltake",
+      "gabinete", "case", "torre",
+      "cooler", "ventilador", "disipador", "fan", "watercooling", "aio", "heatsink",
+      "placa pci", "expansion", "controladora usb"
+    ],
+    "exclude_keywords": [
+      "servidor", "server", "rack", "r440", "td350", "dl380", "hp proliant",
+      "sas", "raid", "controladora raid",
+      "adaptador ide", "ide a sata", "adaptador sata",
+      "grabadora dvd", "graba dvd", "lector dvd", "optico", "cd", "dvd",
+      "bateria apc", "ups", "respaldo de energia",
+      "skyhawk", "cctv", "surveillance",
+      "fuente 9v", "fuente 12v", "fuente 5v", "fuente externa", "adaptador", "transformador", "tablet", "router",
+      "impresora", "scanner", "proyector", "tv", "televisor",
+      "cable", "switch", "hub", "extensor", "monitor industrial", "acces point", "access point", "carry", "canal", "webcam", "mouse", "teclado", "parlante", "audifono", "audifonos", "auricular", "auriculares",
+      "cargador", "cargadores", "bocina", "parlantes", "audifonos bluetooth", "auriculares bluetooth", "repetidor wifi", "repetidor de señal", "router wifi", "modem", "antena wifi", "cable coaxial", "cable ethernet", "cable hdmi", "cable usb"
+    ]
+  }
+}

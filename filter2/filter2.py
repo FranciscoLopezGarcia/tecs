@@ -2,7 +2,6 @@ import pandas as pd
 import sys
 import unicodedata
 
-# Palabras clave para incluir (hardware relevante para armado de PC)
 KEYWORDS = [
     # CPU
     "cpu", "procesador", "ryzen", "intel", "i3", "i5", "i7", "i9", "xeon", "athlon", "pentium", "celeron", "apu",
@@ -24,7 +23,6 @@ KEYWORDS = [
     "placa pci", "expansion", "controladora usb"
 ]
 
-# Palabras clave para excluir (servidores, UPS, CCTV, transformadores, tablets, etc.)
 EXCLUDE_KEYWORDS = [
     "servidor", "server", "rack", "r440", "td350", "dl380", "hp proliant",
     "sas", "raid", "controladora raid",
