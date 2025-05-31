@@ -1,8 +1,47 @@
+# Entorno virtual
 venv/
+.venv/
+
+# Archivos de Python compilados
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Archivos de entorno
 .env
+.env.*
+
+# Archivos de sistema
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de salida del programa
+*.csv
+*.xls
+*.xlsx
 *.sqlite3
+*.db
+*.log
+*.tmp
+
+# Archivos de configuración de herramientas
+.mypy_cache/
+.pytest_cache/
+coverage.*
+.cache/
+.hypothesis/
+.tox/
+.nox/
+.idea/
+.vscode/
+*.code-workspace
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Archivos específicos del proyecto
+filtered_data.csv
+filtered_data_*.csv
+mapped_data.csv
+output.csv
