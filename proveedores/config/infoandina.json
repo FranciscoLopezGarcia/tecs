@@ -1,0 +1,13 @@
+{
+  "column_mapping": {
+    "Producto": "descripcion",
+    "Categoría": "categoria",
+    "Precio final": "precio"
+  },
+  "filters": {
+    "incluir_categoria_prefix": ["Componentes Y Partes"],
+    "incluir_keywords": [],
+    "excluir_keywords": []
+  },
+  "normalizar_descripcion": false
+}

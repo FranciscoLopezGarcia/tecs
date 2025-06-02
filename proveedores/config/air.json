@@ -1,15 +1,10 @@
 {
-  "proveedor1": {
-    "tipo_filtro": "startswith",
-    "columna": "Categoría",
-    "prefijo": "Componentes Y Partes",
-    "keywords": [],
-    "exclude_keywords": []
+  "column_mapping": {
+    "Descripcion": "descripcion",
+    "Precio final": "precio"
   },
-  "proveedor2": {
-    "tipo_filtro": "keywords_exclude",
-    "columna": "Descripcion",
-    "keywords": [
+  "filters": {
+    "incluir_keywords": [
       "cpu", "procesador", "ryzen", "intel", "i3", "i5", "i7", "i9", "xeon", "athlon", "pentium", "celeron", "apu",
       "mother", "placa madre", "motherboard", "mainboard", "mobo",
       "ram", "memoria ddr", "memoria ram", "ddr3", "ddr4", "ddr5", "sodimm",
@@ -20,7 +15,7 @@
       "cooler", "ventilador", "disipador", "fan", "watercooling", "aio", "heatsink",
       "placa pci", "expansion", "controladora usb"
     ],
-    "exclude_keywords": [
+    "excluir_keywords": [
       "servidor", "server", "rack", "r440", "td350", "dl380", "hp proliant",
       "sas", "raid", "controladora raid",
       "adaptador ide", "ide a sata", "adaptador sata",
@@ -32,5 +27,6 @@
       "cable", "switch", "hub", "extensor", "monitor industrial", "acces point", "access point", "carry", "canal", "webcam", "mouse", "teclado", "parlante", "audifono", "audifonos", "auricular", "auriculares",
       "cargador", "cargadores", "bocina", "parlantes", "audifonos bluetooth", "auriculares bluetooth", "repetidor wifi", "repetidor de señal", "router wifi", "modem", "antena wifi", "cable coaxial", "cable ethernet", "cable hdmi", "cable usb"
     ]
-  }
+  },
+  "normalizar_descripcion": true
 }
