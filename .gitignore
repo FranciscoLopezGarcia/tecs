@@ -1,3 +1,7 @@
+# Cloud
+app.yaml
+
+
 # Entorno virtual
 venv/
 .venv/

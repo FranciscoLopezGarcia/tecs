@@ -1,4 +1,4 @@
-from loaders.normalizer import normalizar
+from app.services.common.normalizer import normalizar
 import pandas as pd
 
 def aplicar_filtro(df: pd.DataFrame, config: dict) -> pd.DataFrame:
